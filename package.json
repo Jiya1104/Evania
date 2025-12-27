@@ -1,0 +1,19 @@
+{
+  "name": "evania-xp-streak-backend-sqlite",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "reset:db": "node tools/reset-db.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nanoid": "^5.0.7"
+  }
+}
